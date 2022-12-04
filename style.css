@@ -8,14 +8,20 @@
     width: 100%;
  }
 
+ figure {
+    display: block;
+    padding-top: 2.3rem;
+ }
+
 header {
-        
+
     display: flex;
-    align-items: center;
+    justify-content: center;
     background: url(img/star\ uó\ topo@2x.png) no-repeat center top;
     background-size: cover;
     background-color: aqua;
-    height: 100%;
+    height: 38.5vw;
+    max-height: 735px;
 }
 
 
@@ -24,4 +30,24 @@ header {
     display: flex;
     align-items: center;
 
+}
+
+.star{
+
+    position: relative;
+    left: 26%;
+
+}
+
+.kylo{}
+
+.wars{
+    position: relative;
+    right: 10%;}
+
+.criesualegiao{
+    position: relative;
+    right: 15%;
+    padding-top: 12%;
+    scale: 2;
 }
