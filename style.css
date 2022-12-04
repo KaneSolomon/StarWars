@@ -35,19 +35,22 @@ header {
 .star{
 
     position: relative;
-    left: 26%;
+    left: 27%;
 
 }
 
-.kylo{}
+.kylo{
+    z-index: 1;
+}
 
 .wars{
     position: relative;
-    right: 10%;}
+    right: 12%;
+}
 
 .criesualegiao{
     position: relative;
-    right: 15%;
-    padding-top: 12%;
+    right: 20%;
+    padding-top: 11%;
     scale: 2;
 }
