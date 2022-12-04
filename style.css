@@ -1,1 +1,25 @@
-/* teste 001 */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+header {
+    
+    display: flex;
+    align-items: center;
+    background: url(img/star\ uó\ topo@2x.png) no-repeat center top;
+    background-size: cover;
+    background-color: aqua;
+    height: 100%;
+}
+
+
+.mainheader {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
