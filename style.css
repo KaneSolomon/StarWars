@@ -67,24 +67,7 @@ main {
     align-items: center;
 }
 
-.section1 {
-    /* Display: flex;
-    align-items: center;
-    flex-direction: column; */
-    background: url(img/sta\ uo\ robot@2x.png) no-repeat center top;
-    background-size: 100%;
-    width: 100%;
-}
 
-.section1 .sobreojogo{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-height: 720px;
-    max-width: 1920px;
-    width: 100%;
-}
 
 
 
