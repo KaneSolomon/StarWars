@@ -4,14 +4,16 @@
     box-sizing: border-box;
     list-style: none;
 }
- img{
-    width: 100%;
- }
 
- figure {
+/* HEADER */
+img {
+    width: 100%;
+}
+
+figure {
     display: block;
     padding-top: 2.3rem;
- }
+}
 
 header {
 
@@ -32,25 +34,120 @@ header {
 
 }
 
-.star{
+.star {
 
     position: relative;
     left: 27%;
 
 }
 
-.kylo{
+.kylo {
     z-index: 1;
 }
 
-.wars{
+.wars {
     position: relative;
     right: 12%;
 }
 
-.criesualegiao{
+.criesualegiao {
     position: relative;
-    right: 20%;
-    padding-top: 11%;
+    right: 19%;
+    padding-top: 12%;
     scale: 2;
+}
+
+
+/* MAIN */
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 {
+    /* Display: flex;
+    align-items: center;
+    flex-direction: column; */
+    background: url(img/sta\ uo\ robot@2x.png) no-repeat center top;
+    background-size: 100%;
+    width: 100%;
+}
+
+.section1 .sobreojogo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 720px;
+    max-width: 1920px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+@media(min-width:201px) and (max-width: 500px) {
+    img {
+        width: 100%;
+    }
+
+    figure {
+        display: block;
+        padding-top: 2.3rem;
+    }
+
+    header {
+
+        display: flex;
+        justify-content: center;
+        background: url(img/star\ uó\ topo@2x.png) no-repeat center top;
+        background-size: cover;
+        background-color: aqua;
+        height: 38.5vw;
+        max-height: 735px;
+    }
+
+
+    .mainheader {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .star {
+
+        position: relative;
+        left: 27%;
+
+    }
+
+    .kylo {
+        z-index: 1;
+    }
+
+    .wars {
+        position: relative;
+        right: 12%;
+    }
+
+    .criesualegiao {
+        position: relative;
+        right: 19%;
+        padding-top: 12%;
+        scale: 2;
+    }
 }
