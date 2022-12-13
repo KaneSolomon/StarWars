@@ -570,16 +570,16 @@ footer .app p {
         justify-content: center;
         background: url(img/star\ uó\ topo@2x.png) no-repeat center top;
         background-size: cover;
-        background-color: aqua;
         height: 38.5vw;
         max-height: 735px;
     }
 
 
     .mainheader {
-        position: relative;
-        display: flex;
-        align-items: center;
+
+        transform: scale(130%);
+        padding-bottom: 30vh;
+        right: 6%;
 
     }
 
@@ -636,6 +636,7 @@ footer .app p {
         width: 70%;
         height: 90vw;
     }
+
     .section1 .Banner h2 {
         width: 50%;
         font-weight: 600;
@@ -720,14 +721,14 @@ footer .app p {
     }
 
 
-.section1 .estruturagame .background {
-    position: absolute;
-    background-color: white;
-    width: 100vw;
-    height: 80vw;
-    top: 168vw;
-    z-index: 0;
-}
+    .section1 .estruturagame .background {
+        position: absolute;
+        background-color: white;
+        width: 100vw;
+        height: 80vw;
+        top: 168vw;
+        z-index: 0;
+    }
 
 
     .section1 .linha {
@@ -748,9 +749,9 @@ footer .app p {
     }
 
     .section1 .estruturagame .darthmaul {
-        width: 40%;
-        left: 11%;
-        margin-top: -2%;
+        left: 5%;
+        margin-top: -10%;
+        width: 40%
     }
 
     .section1 .estruturagame figure {
@@ -760,218 +761,188 @@ footer .app p {
     /* NAVMEIO */
 
     .section1 .estruturagame .navmeio {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+        position: relative;
+        width: 65%;
         gap: 2vw;
-        width: 25vw;
-        text-align: right;
-        z-index: 1;
-        padding-bottom: 4vw;
+        transform: scale(0.8);
+        padding-bottom: 0px;
     }
+}
 
-    .section1 .estruturagame .navmeio h2 {
-        width: 100%;
-        line-height: 90%;
-        text-transform: uppercase;
-        font-size: 4vw;
-        font-weight: 500;
-    }
+.section1 .estruturagame .navmeio h2 {
+    width: 100%;
+    line-height: 90%;
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-weight: 500;
+}
 
-    .section1 .estruturagame .navmeio nav {
-        width: 100%;
-    }
+.section1 .estruturagame .navmeio nav {
+    width: 100%;
+}
 
-    .section1 .estruturagame .navmeio nav ul {
-        display: flex;
-        flex-direction: column;
-        gap: 1vw;
-    }
+.section1 .estruturagame .navmeio nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
 
-    .section1 .estruturagame .navmeio nav ul li {
-        text-transform: uppercase;
-        font-size: 1.4vw;
-        font-weight: 500;
-        width: 100%;
-        height: 110%;
-        display: flex;
-        justify-content: flex-end;
-        padding-right: 2.5%;
-    }
-
-
-    /* Imagem ficou distorcida */
-    /* Arrumado */
-    /* NAVMEIO */
-
-    .section1 .estruturagame .rey {
-        width: 20%;
-        right: 15%;
-    }
-
-    .section2 {
-        gap: 5vw;
-    }
-
-    .section2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #2d2d2d;
-        height: 220vh;
-        width: 100%;
-    }
-
-    .section2 .atributos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 4vw;
-        padding-top: 10vw;
-    }
-
-    .section2 .atributos h2 {
-        padding-left: 5vw;
-        color: white;
-        font-weight: 800;
-        text-transform: uppercase;
-        font-size: 2.8vw;
-        letter-spacing: -0.05vw;
-        align-self: flex-start;
-    }
-
-    .section2 .atributos .containergaleria {
-        display: flex;
-        width: 80vw;
-        height: 25vw;
-    }
-
-    .section2 .atributos .containergaleria .galeria1 {
-        width: 55%;
-        height: 100%;
-    }
-
-    .section2 .atributos .containergaleria .galeria2 {
-        display: flex;
-        flex-wrap: wrap;
-        width: 50%;
-        height: 100%;
-    }
-
-    .section2 .atributos .containergaleria .galeria2 figure {
-        width: 50%;
-    }
-
-    .section2 .atributos .container figure {
-        position: relative;
-        cursor: pointer;
-    }
-
-    /* Hierarquia */
-
-    .section2 .hierarquia figure {
-        width: 80vw;
-    }
-
-    .section2 .hierarquia {
-        padding-bottom: 15vw;
-    }
-
-    /* Capa Preta */
-
-    .section2 .comojogar {
-        background-color: white;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 12vw;
-    }
-
-    .section2 .comojogar figure {
-        position: absolute;
-        left: 4vw;
-        margin-top: -18vw;
-        width: 20vw;
-    }
-
-    .section2 .comojogar .teste img {
-
-        width: 140%;
-
-    }
-
-    .section2 .comojogar .teste h2 {
-        position: relative;
-        bottom: 10vw;
-        text-transform: uppercase;
-        font-size: 2.5vw;
-        color: white;
-    }
-
-    /* Opções Sessão 2 */
-
-    .section2 .comojogar .opcoes .opcao {
-        width: 70%;
-        text-align: center;
-        font-size: 1.2rem;
-        font-weight: 300;
-    }
-
-    .section2 .comojogar .opcoes .opcao .botaoslide button {
-        padding: 0.5vw 2.5vh;
-        border: none;
-        background: linear-gradient(black, black);
-        background-repeat: no-repeat;
-        width: 100%;
-        color: white;
-        font-size: 1.3vw;
-        font-family: "Poppins", sans-serif;
-        font-weight: 200;
-        letter-spacing: 0.1vw;
-        text-transform: uppercase;
-    }
-
-    .section2 .comojogar .opcoes .opcao h2 {
-        font-size: 1.8vw;
-        font-weight: 300;
-        font-family: "Poppins", sans-serif;
-    }
-
-    .section2 .comojogar .opcoes .opcao {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1.1vw;
-        width: 11vw;
-    }
-
-    .section2 .comojogar .opcoes {
-        padding-top: 2.5vw;
-        padding-left: 23vw;
-        display: flex;
-        gap: 8vw;
-    }
-
-    .section2 {
-        border: solid yellow;
-        gap: 5vw;
-        height: 100%;
-
-    }
+.section1 .estruturagame .navmeio nav ul li {
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    font-weight: 500;
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2.5%;
+}
 
 
-    /* Linha */
+/* Imagem ficou distorcida */
+/* Arrumado */
+/* NAVMEIO */
+
+.section1 .estruturagame .rey {
+    right: 5%;
+    margin-top: -8%;
+}
+
+.section2{
+    height: auto;
+}
+
+.section2 {
+    gap: 5vw;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d2d2d;
+    height: 220vh;
+    width: 100%;
+}
+
+.section2 .atributos {
+    display: inline;
+    padding-top: 10vw;
+}
+
+.section2 .atributos h2 {
+    text-align: center;
+    font-size: 4vw;
+    padding-left: 0px;
+    padding-bottom: 5vw;
+}
+
+.section2 .atributos .containergaleria {
+    display: inline;
+    height: 100vw;
+}
+
+.section2 .atributos .containergaleria .galeria1 {
+    display: inline;
+}
+
+.section2 .atributos .containergaleria .galeria2 {
+    display: inline;
+}
+
+/* .section2 .atributos .containergaleria .galeria2 figure {
+    width: 50%;
+}
+
+.section2 .atributos .container figure {
+    position: relative;
+    cursor: pointer;
+} */
+
+/* Hierarquia */
+
+.section2 .hierarquia figure {
+    width: 100%;
+}
+
+.section2 .hierarquia {
+    width: 100%;
+    height: 100%;
+}
+
+/* Capa Preta */
+
+.section2 .comojogar {
+    padding-bottom: 10vw;
+}
+
+.section2 .comojogar figure {
+    left: -27vw;
+    margin-top: -18vw;
+    width: 60vw;
+}
+
+.section2 .comojogar .teste img {
+
+    width: 140%;
+
+}
+
+.section2 .comojogar .teste h2 {
+    font-size: 4vw;
+    padding-left: 50vw;
+    margin-top: -3.5vw;
+}
+
+/* Opções Sessão 2 */
+
+.section2 .comojogar .opcoes .opcao {
+    width: 70%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.section2 .comojogar .opcoes .opcao .botaoslide button {
+    font-size: 3vw;
+    padding: 2vw 3vw;
+}
+
+.section2 .comojogar .opcoes .opcao h2 {
+    font-size: 5vw;
+}
+
+.section2 .comojogar .opcoes .opcao {
+    width: 25vw;
+}
+
+.section2 .comojogar .opcoes .opcao p {
+
+    font-size: 2vw;
+}
+
+.section2 .comojogar .opcoes {
+    flex-direction: column;
+    gap: 5vw;
+    padding-left: 50vw;
+}
+
+.section2 {
+    border: solid yellow;
+    gap: 5vw;
+    height: 100%;
+
+}
 
 
-    .section2 .comojogar .opcoes .opcao .linha {
+/* Linha */
 
-        width: 40%;
-        height: 0.25vw;
-        background-color: black;
 
-    }
+.section2 .comojogar .opcoes .opcao .linha {
+
+    width: 40%;
+    height: 0.25vw;
+    background-color: black;
 
 }
 
