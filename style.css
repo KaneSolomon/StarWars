@@ -426,6 +426,9 @@ p {
 }
 
 
+/* /MAIN */
+
+
 /* Linha */
 
 
@@ -592,4 +595,401 @@ footer .app p {
     }
 
     /* /HEADER */
+
+
+/* MAIN */
+
+
+.section1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url(img/sta\ uo\ robot@2x.png) no-repeat center top;
+    background-size: 100%;
+    width: 100%;
+    height: 70%;
 }
+
+.section1 .sobreojogo {
+    padding-top: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px;
+    max-height: none;
+    width: 80%;
+}
+
+.section1 .Banner {
+
+    gap: 12vw;
+    justify-content: center;
+    margin: 0px;
+    max-width: none;
+    min-height: auto;
+    min-width: auto;
+    width: 70%;
+    height: 90vw;
+} 
+
+.section1 .Banner {
+    /* z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(1rem, 3vw, 2rem);
+    padding: 5% 0%;
+    margin-left: 15%;
+    margin-top: -3%;
+    width: 100vw;
+    height: 100%;
+    max-width: 350px;
+    min-height: 500px;
+    background: url(img/strom\ trupe\ red.png) no-repeat center;
+    background-size: 110%;
+    color: white; */
+}
+
+.section1 .Banner h2 {
+    width: 50%;
+    font-weight: 600;
+    font-size: clamp(1rem, 2vw, 2.5rem);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.section1 .Banner p {
+    font-size: 3.5vw;
+}
+
+.section1 .Banner p {
+    /* width: 80%;
+    font-weight: 100;
+    letter-spacing: 0.1px;
+    font-size: clamp(0.5rem, 1vw, 1.5rem);
+    opacity: 0.8; */
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Teste estrutura Container direitp sessão 1 */
+
+.section1 .sobreojogo .texto {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+    width: 77%;
+    transform: scale(0.7);
+    align-self: flex-end;
+    top: 6vw;
+    margin-right: 3%
+}
+
+.section1 .sobreojogo .texto .InfoGame {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section1 .sobreojogo .texto .InfoGame img {
+    width: 120%;
+}
+
+.section1 .sobreojogo .texto .sobre {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 2%;
+    width: 150%;
+}
+
+.section1 .sobreojogo .texto .sobre h2 {
+    text-transform: uppercase;
+    font-size: clamp(1rem, 1.8vw, 2.5rem);
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-end;
+
+}
+
+.section1 .sobreojogo .texto .sobre p {
+    text-align: right;
+    font-size: clamp(1rem, 1.8vw, 2.2rem);
+    width: 120%;
+}
+
+
+
+
+
+.section1 .linha {
+    margin-top: 5vw;
+    width: 80%;
+    max-width: 1450px;
+    height: 0.2vw;
+    background-color: black;
+    z-index: 1;
+}
+
+.section1 .estruturagame {
+    padding-top: 5vw;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    max-width: 1920px;
+}
+
+.section1 .estruturagame .darthmaul {
+    width: 40%;
+    left: 11%;
+    margin-top: -2%;
+}
+
+.section1 .estruturagame figure {
+    position: absolute;
+}
+
+/* NAVMEIO */
+
+.section1 .estruturagame .navmeio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2vw;
+    width: 25vw;
+    text-align: right;
+    z-index: 1;
+    padding-bottom: 4vw;
+}
+
+.section1 .estruturagame .navmeio h2 {
+    width: 100%;
+    line-height: 90%;
+    text-transform: uppercase;
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+.section1 .estruturagame .navmeio nav {
+    width: 100%;
+}
+
+.section1 .estruturagame .navmeio nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.section1 .estruturagame .navmeio nav ul li {
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    font-weight: 500;
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2.5%;
+}
+
+
+/* Imagem ficou distorcida */
+/* Arrumado */
+/* NAVMEIO */
+
+.section1 .estruturagame .rey {
+    width: 20%;
+    right: 15%;
+}
+
+.section2 {
+    gap: 5vw;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d2d2d;
+    height: 220vh;
+    width: 100%;
+}
+
+.section2 .atributos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    padding-top: 10vw;
+}
+
+.section2 .atributos h2 {
+    padding-left: 5vw;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2.8vw;
+    letter-spacing: -0.05vw;
+    align-self: flex-start;
+}
+
+.section2 .atributos .containergaleria {
+    display: flex;
+    width: 80vw;
+    height: 25vw;
+}
+
+.section2 .atributos .containergaleria .galeria1 {
+    width: 55%;
+    height: 100%;
+}
+
+.section2 .atributos .containergaleria .galeria2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
+
+.section2 .atributos .containergaleria .galeria2 figure {
+    width: 50%;
+}
+
+.section2 .atributos .container figure {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Hierarquia */
+
+.section2 .hierarquia figure {
+    width: 80vw;
+}
+
+.section2 .hierarquia {
+    padding-bottom: 15vw;
+}
+
+/* Capa Preta */
+
+.section2 .comojogar {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 12vw;
+}
+
+.section2 .comojogar figure {
+    position: absolute;
+    left: 4vw;
+    margin-top: -18vw;
+    width: 20vw;
+}
+
+.section2 .comojogar .teste img {
+
+    width: 140%;
+
+}
+
+.section2 .comojogar .teste h2 {
+    position: relative;
+    bottom: 10vw;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    color: white;
+}
+
+/* Opções Sessão 2 */
+
+.section2 .comojogar .opcoes .opcao {
+    width: 70%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.section2 .comojogar .opcoes .opcao .botaoslide button {
+    padding: 0.5vw 2.5vh;
+    border: none;
+    background: linear-gradient(black, black);
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    font-size: 1.3vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.1vw;
+    text-transform: uppercase;
+}
+
+.section2 .comojogar .opcoes .opcao h2 {
+    font-size: 1.8vw;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+
+.section2 .comojogar .opcoes .opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1vw;
+    width: 11vw;
+}
+
+.section2 .comojogar .opcoes {
+    padding-top: 2.5vw;
+    padding-left: 23vw;
+    display: flex;
+    gap: 8vw;
+}
+
+.section2 {
+    border: solid yellow;
+    gap: 5vw;
+    height: 100%;
+
+}
+
+
+/* Linha */
+
+
+.section2 .comojogar .opcoes .opcao .linha {
+
+    width: 40%;
+    height: 0.25vw;
+    background-color: black;
+
+}
+
+}
+
+/* /MAIN */
