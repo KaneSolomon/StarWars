@@ -421,6 +421,62 @@ footer .darthvader {
     left: 51vw;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap:1.5vw;
+}
+
+footer .app .container h2 {
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    font-weight: 1000;
+}
+
+footer .app .container p {
+    font-weight: 300;
+    font-size: 0.95vw;
+}
+
+footer .downloadapp {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    cursor: pointer;
+}
+
+footer .linha {
+    width: 100%;
+    height: 0.2vw;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 2vw;
+}
+
+footer .app .star-wars {
+    border: solid orange;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 45%;
+}
+
+footer .app .star-wars {
+
+    position: relative;
+    bottom: 3.5vw;
+    gap: 0.5vw;
+}
+
+/* Não consegui fazer com fonte -_- */
+footer .app .estauo {
+    width: 20%;
+}
+
+footer .app .estauo p {
+    font-weight: 300;
+    font-size: 0.95vw;
+}
 
 
 
