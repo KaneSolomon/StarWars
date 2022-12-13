@@ -421,17 +421,20 @@ footer .darthvader {
     left: 51vw;
 }
 
-.container {
+footer .container {
     display: flex;
     flex-direction: column;
     width: 45%;
     gap:1.5vw;
+    
 }
 
 footer .app .container h2 {
     text-transform: uppercase;
     font-size: 2.5vw;
     font-weight: 1000;
+    margin-bottom: -2rem;
+
 }
 
 footer .app .container p {
@@ -450,7 +453,7 @@ footer .linha {
     width: 100%;
     height: 0.2vw;
     background-color: rgba(0, 0, 0, 0.2);
-    margin-top: 2vw;
+    margin-top: -0.5vw;
 }
 
 footer .app .star-wars {
@@ -470,10 +473,10 @@ footer .app .star-wars {
 
 /* Não consegui fazer com fonte -_- */
 footer .app .estauo {
-    width: 20%;
+    width: 14.5vw;
 }
 
-footer .app .estauo p {
+footer .app p {
     font-weight: 300;
     font-size: 0.95vw;
 }
