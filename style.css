@@ -552,7 +552,7 @@ footer .app p {
 
 
 /* MOBILE */
-@media(min-width:201px) and (max-width: 500px) {
+@media(min-width:201px) and (max-width: 1300px) {
 
     /* HEADER */
     img {
@@ -946,6 +946,66 @@ footer .app p {
 
 }
 
+/* /MAIN */
+
+/* FOOTER */
+
+footer {
+    height: 200vw;
 }
 
-/* /MAIN */
+footer .app {
+    width: 100vw;
+    height: 80%;
+}
+
+footer .app .container {
+    padding-top: 10vw;
+    gap: 5vw;
+    width: 40vh;
+}
+
+footer .app .container h2  {
+    font-size: 8vw;
+    text-align: center;
+    width: 100%;
+}
+
+footer .app .container p{
+    font-size: 3.5vw;
+    width: 90%;
+}
+
+footer .app .container .downloadapp {
+    position: initial;
+    justify-content: center;
+    gap: 3vw;
+}
+
+footer .app .container .linha {
+    height: 0.5vw;
+}
+
+footer .app .estauo {
+    width: 10rem;
+}
+
+footer .app p {
+    text-align: right;
+    text-align-last: right;
+    padding-top: 2.5vw;
+    font-size: 3vw;
+    width: 90%;
+}
+
+footer .darthvader {
+    width: 71vw;
+    left: -3vw;
+    /* top: 912vw; */
+}
+
+
+
+/* /FOOTER */
+
+}
