@@ -555,14 +555,14 @@ footer .app p {
 @media(min-width:201px) and (max-width: 1300px) {
 
     /* HEADER */
-    img {
+    /* img {
         width: 100%;
     }
 
     figure {
         display: block;
         padding-top: 2.3rem;
-    }
+    } */
 
     header {
 
@@ -762,7 +762,9 @@ footer .app p {
 
     .section1 .estruturagame .navmeio {
         position: relative;
-        width: 65%;
+        width: 40vh;
+        right: 7vh;
+        bottom: 2vh;
         gap: 2vw;
         transform: scale(0.8);
         padding-bottom: 0px;
@@ -789,7 +791,7 @@ footer .app p {
 
 .section1 .estruturagame .navmeio nav ul li {
     text-transform: uppercase;
-    font-size: 1.4vw;
+    font-size: 2vw;
     font-weight: 500;
     width: 100%;
     height: 110%;
@@ -812,7 +814,7 @@ footer .app p {
     height: auto;
 }
 
-.section2 {
+/* .section2 {
     gap: 5vw;
 }
 
@@ -823,7 +825,7 @@ footer .app p {
     background-color: #2d2d2d;
     height: 220vh;
     width: 100%;
-}
+} */
 
 .section2 .atributos {
     display: inline;
@@ -846,15 +848,19 @@ footer .app p {
     display: inline;
 }
 
+.section2 .atributos .containergaleria .galeria1 figure {
+    width: 100%;
+}
+
 .section2 .atributos .containergaleria .galeria2 {
     display: inline;
 }
 
-/* .section2 .atributos .containergaleria .galeria2 figure {
+.section2 .atributos .containergaleria .galeria2 figure {
     width: 50%;
 }
 
-.section2 .atributos .container figure {
+/* .section2 .atributos .container figure {
     position: relative;
     cursor: pointer;
 } */
@@ -926,15 +932,6 @@ footer .app p {
     gap: 5vw;
     padding-left: 50vw;
 }
-
-.section2 {
-    border: solid yellow;
-    gap: 5vw;
-    height: 100%;
-
-}
-
-
 /* Linha */
 
 
