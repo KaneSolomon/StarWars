@@ -829,7 +829,8 @@ footer .app p {
 
 .section2 .atributos {
     display: inline;
-    padding-top: 10vw;
+    height: 100%;
+    /* border: solid blue; */
 }
 
 .section2 .atributos h2 {
@@ -842,14 +843,17 @@ footer .app p {
 .section2 .atributos .containergaleria {
     display: inline;
     height: 100vw;
+    
 }
 
 .section2 .atributos .containergaleria .galeria1 {
     display: inline;
+    
 }
 
 .section2 .atributos .containergaleria .galeria1 figure {
-    width: 100%;
+    width: 50%;
+    padding-top: 0;
 }
 
 .section2 .atributos .containergaleria .galeria2 {
@@ -858,6 +862,7 @@ footer .app p {
 
 .section2 .atributos .containergaleria .galeria2 figure {
     width: 50%;
+    padding-top: 0;
 }
 
 /* .section2 .atributos .container figure {
