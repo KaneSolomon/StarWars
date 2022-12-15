@@ -854,6 +854,7 @@ footer .app p {
 .section2 .atributos .containergaleria .galeria1 figure {
     width: 50%;
     padding-top: 0;
+    margin-left: 25%;
 }
 
 .section2 .atributos .containergaleria .galeria2 {
@@ -863,6 +864,7 @@ footer .app p {
 .section2 .atributos .containergaleria .galeria2 figure {
     width: 50%;
     padding-top: 0;
+    margin-left: 25%;
 }
 
 /* .section2 .atributos .container figure {
